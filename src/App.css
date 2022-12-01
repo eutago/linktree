@@ -215,8 +215,13 @@ button:hover {
     height: 85%;
   }
 
+  .Main {
+    grid-template-columns: 1fr;
+  }
+  
   .Main > button {
-    height: 4rem;
+    grid-column: span 2;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,8 +241,13 @@ button:hover {
     height: 100%;
   }
 
+  .Main {
+    grid-template-columns: 1fr;
+  }
+  
   .Main > button {
-    height: 4.5rem;
+    grid-column: span 2;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
