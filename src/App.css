@@ -226,16 +226,16 @@ button:hover {
 
 @media screen and (max-height: 850px) {
   .Main > button {
-    height: 4.5rem;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
 
-@media screen and (max-height: 775px) {
+@media screen and (max-height: 700px) {
   .Main > button {
-    height: 3.5rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
